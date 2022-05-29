@@ -1,0 +1,75 @@
+body {
+    background: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.box {
+    background: #333333;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.in {
+    position: relative;
+    left: 50px;
+    top: 40px;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 190px;
+    height: 20px;
+    background: none;
+    transition: all 0.3s ease-in;
+    font-family: Vazir;
+}
+
+.ou {
+    position: relative;
+    left: 50px;
+    top: 150px;
+    border: none;
+    border-bottom: white solid 1px;
+    width: 190px;
+    height: 20px;
+    background: none;
+    transition: all 0.3s ease-in;
+    font-family: vazir;
+}
+
+
+.btn {
+    position: relative;
+    left: 75px;
+    top: 250px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px
+        rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    font-family: vazir;
+}
+
+.btn:hover {
+    background: #8848c9;
+    box-shadow: 5px 10px 25px 
+    rgb(136, 72, 201);
+    color: aliceblue;
+    transform: translateX(-7px);
+}
+
+    @font-face {
+        font-family: vazir;
+        src: url(Vazir.woff);
+    }
+
+
+
